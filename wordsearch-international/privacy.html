@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy · WordSearch Winners</title>
+    <meta
+      name="description"
+      content="Privacy policy for WordSearch Winners, a free open-source word search game. No ads. Optional self-hosted PocketBase accounts and analytics."
+    />
+    <link rel="stylesheet" href="legal.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site">
+        <a class="brand" href="index.html">WordSearch Winners</a>
+        <nav aria-label="Legal">
+          <a href="privacy.html" aria-current="page">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="https://github.com/yohann305/wordsearch-international">Source</a>
+        </nav>
+      </header>
+
+      <article>
+        <h1>Privacy Policy</h1>
+        <p class="lede">Last updated: September 25, 2026 · MIT-licensed free and open-source word search</p>
+        <ul class="chips">
+          <li>No ads</li>
+          <li>No AdMob / ad trackers</li>
+          <li>FOSS (MIT)</li>
+          <li>Self-hosted backend</li>
+        </ul>
+
+        <p>
+          WordSearch Winners collects <strong>as little data as possible</strong>. Anyone can self-host the
+          backend. This policy describes the default <strong>PocketBase</strong> stack and
+          <strong>optional</strong> self-hosted analytics. We do not sell personal data. We do not use AdMob
+          or third-party ad trackers.
+        </p>
+        <p class="note">
+          Support and privacy questions: open a GitHub Issue on
+          <a href="https://github.com/yohann305/wordsearch-international/issues">yohann305/wordsearch-international</a>.
+          There is no separate company domain or privacy mailbox for this project.
+        </p>
+
+        <h2>1. What we collect</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Purpose</th>
+              <th>Stored where</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Email + password hash</td>
+              <td>Account, leaderboard identity</td>
+              <td>Your PocketBase instance</td>
+            </tr>
+            <tr>
+              <td>Display name, game stats</td>
+              <td>Profile, achievements, streaks</td>
+              <td>PocketBase <code>profiles</code></td>
+            </tr>
+            <tr>
+              <td>Daily scores</td>
+              <td>Leaderboards</td>
+              <td>PocketBase <code>scores</code></td>
+            </tr>
+            <tr>
+              <td>Multiplayer room/claim events</td>
+              <td>Live races</td>
+              <td>PocketBase <code>mp_*</code></td>
+            </tr>
+            <tr>
+              <td>Optional Umami page views</td>
+              <td>Anonymous usage trends</td>
+              <td>Your Umami instance, if enabled</td>
+            </tr>
+            <tr>
+              <td>Game Center player id, alias, scores, achievement progress</td>
+              <td>iOS leaderboards and achievements</td>
+              <td>Apple Game Center, on iOS only</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>If you play as a guest and never create an account, the server does not keep an email or password for you.</p>
+
+        <h2>2. What we do not collect</h2>
+        <ul>
+          <li>Precise GPS location</li>
+          <li>Contacts, photos, microphone</li>
+          <li>Cross-app advertising IDs (no AdMob)</li>
+          <li>Payment card numbers (handled by Apple/Google if you use in-app purchases)</li>
+        </ul>
+
+        <h2>3. Local device data</h2>
+        <p>The app may store on your device:</p>
+        <ul>
+          <li>Auth session token (AsyncStorage)</li>
+          <li>Practice puzzle daily counter</li>
+          <li>Offline puzzle state</li>
+        </ul>
+        <p>Clear app data or sign out to remove local tokens.</p>
+
+        <h2>4. Analytics (optional, self-hosted)</h2>
+        <p>
+          If the operator enables <strong>Umami</strong> (self-hosted): no cookies are required for basic page
+          analytics, there is no personal profiling, and the web build can show an opt-out banner.
+        </p>
+        <p>If Umami is not deployed, <strong>no analytics</strong> run.</p>
+
+        <h2>5. Error reporting (optional)</h2>
+        <p>
+          <strong>GlitchTip</strong> (self-hosted, Sentry-compatible) may receive crash stack traces without PII
+          if the operator configures it.
+        </p>
+
+        <h2>6. Children’s privacy</h2>
+        <p>The game is not directed at children under 13. We do not knowingly collect data from children.</p>
+
+        <h2>7. Your rights (GDPR / CCPA)</h2>
+        <p>You may:</p>
+        <ul>
+          <li><strong>Access</strong> your profile via the app when signed in</li>
+          <li>
+            <strong>Delete</strong> your account — contact the server operator via
+            <a href="https://github.com/yohann305/wordsearch-international/issues">GitHub Issues</a>
+            or use admin tools on a self-hosted PocketBase
+          </li>
+          <li><strong>Export</strong> scores — request from the server operator via GitHub Issues</li>
+        </ul>
+        <p>
+          Self-hosters may document an additional contact in <code>EXPO_PUBLIC_PRIVACY_CONTACT</code>. This
+          project’s public contact is GitHub Issues only.
+        </p>
+
+        <h2>8. Data retention</h2>
+        <ul>
+          <li>Scores and achievements: retained while the account exists</li>
+          <li>Multiplayer rooms: deleted or archived after a game ends (operator policy)</li>
+          <li>Umami: default 90-day retention (configurable), if enabled</li>
+        </ul>
+
+        <h2>9. Open-source transparency</h2>
+        <p>
+          Full server schema and hooks live in
+          <a href="https://github.com/yohann305/wordsearch-international/tree/main/server/pocketbase"
+            ><code>server/pocketbase/</code></a
+          >
+          on GitHub. Host your own backend — no vendor lock-in.
+        </p>
+
+        <h2>10. Contact</h2>
+        <ul>
+          <li>
+            GitHub Issues:
+            <a href="https://github.com/yohann305/wordsearch-international/issues"
+              >https://github.com/yohann305/wordsearch-international/issues</a
+            >
+          </li>
+          <li>
+            Source:
+            <a href="https://github.com/yohann305/wordsearch-international"
+              >https://github.com/yohann305/wordsearch-international</a
+            >
+          </li>
+        </ul>
+        <p>Do not use a made-up company email or domain for this app.</p>
+
+        <h2>11. Changes</h2>
+        <p>
+          Material changes will be noted in the app Settings screen, in
+          <code>CHANGELOG.md</code>, and on this page.
+        </p>
+      </article>
+
+      <footer class="site">
+        Public HTTPS copy for App Store Connect. Markdown source:
+        <a href="https://github.com/yohann305/wordsearch-international/blob/main/docs/PRIVACY.md">docs/PRIVACY.md</a>.
+        Also see <a href="terms.html">Terms of Service</a>.
+      </footer>
+    </div>
+  </body>
+</html>
