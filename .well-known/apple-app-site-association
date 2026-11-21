@@ -3,7 +3,7 @@
     "details": [
       {
         "appIDs": ["HPGNJDQGKV.com.appsfresh.GreenScreenLiveRecording"],
-        "components": [{ "/": "/app-legal/greenscreen-ios/*", "comment": "Green Screen Live (iOS + Mac)" }]
+        "components": [{ "/": "/app-legal/greenscreen-ios/*.html", "exclude": true, "comment": "privacy/terms/support stay on the web" }, { "/": "/app-legal/greenscreen-ios/*", "comment": "Green Screen Live (iOS + Mac)" }]
       },
       {
         "appIDs": ["HPGNJDQGKV.com.appfresh.videoteleprompterpro.free"],
