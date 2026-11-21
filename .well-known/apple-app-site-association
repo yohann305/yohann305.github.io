@@ -1,0 +1,22 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["HPGNJDQGKV.com.appsfresh.GreenScreenLiveRecording"],
+        "components": [{ "/": "/app-legal/greenscreen-ios/*", "comment": "Green Screen Live (iOS + Mac)" }]
+      },
+      {
+        "appIDs": ["HPGNJDQGKV.com.appfresh.videoteleprompterpro.free"],
+        "components": [{ "/": "/app-legal/video-teleprompter-pro/*", "comment": "Video Teleprompter (iOS + Mac)" }]
+      },
+      {
+        "appIDs": ["HPGNJDQGKV.com.tinokio.colorblindtest"],
+        "components": [{ "/": "/app-legal/colorblind/*", "comment": "Colorblind Eye Exam (iOS + Mac)" }]
+      },
+      {
+        "appIDs": ["HPGNJDQGKV.com.appsfresh.bachata"],
+        "components": [{ "/": "/app-legal/bachata-ios/*", "comment": "Bachata" }]
+      }
+    ]
+  }
+}
