@@ -15,7 +15,7 @@
       },
       {
         "appIDs": ["HPGNJDQGKV.com.appsfresh.bachata"],
-        "components": [{ "/": "/app-legal/bachata-ios/*", "comment": "Bachata" }]
+        "components": [{ "/": "/app-legal/bachata-ios/*.html", "exclude": true, "comment": "privacy/terms/support stay on the web" }, { "/": "/app-legal/bachata-ios/*", "comment": "Bachata" }]
       }
     ]
   }
