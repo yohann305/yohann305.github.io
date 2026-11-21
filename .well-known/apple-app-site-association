@@ -11,7 +11,7 @@
       },
       {
         "appIDs": ["HPGNJDQGKV.com.tinokio.colorblindtest"],
-        "components": [{ "/": "/app-legal/colorblind/*", "comment": "Colorblind Eye Exam (iOS + Mac)" }]
+        "components": [{ "/": "/app-legal/colorblind/*.html", "exclude": true, "comment": "privacy/terms/support stay on the web" }, { "/": "/app-legal/colorblind/*", "comment": "Colorblind Eye Exam (iOS + Mac)" }]
       },
       {
         "appIDs": ["HPGNJDQGKV.com.appsfresh.bachata"],
