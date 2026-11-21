@@ -7,7 +7,7 @@
       },
       {
         "appIDs": ["HPGNJDQGKV.com.appfresh.videoteleprompterpro.free"],
-        "components": [{ "/": "/app-legal/video-teleprompter-pro/*", "comment": "Video Teleprompter (iOS + Mac)" }]
+        "components": [{ "/": "/app-legal/video-teleprompter-pro/*.html", "exclude": true, "comment": "privacy/terms/support stay on the web" }, { "/": "/app-legal/video-teleprompter-pro/*", "comment": "Video Teleprompter (iOS + Mac)" }]
       },
       {
         "appIDs": ["HPGNJDQGKV.com.tinokio.colorblindtest"],
