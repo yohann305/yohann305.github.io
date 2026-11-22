@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.appsfresh.greenscreen",
+      "sha256_cert_fingerprints": [
+        "8D:87:4F:86:C6:19:ED:0C:32:BA:A5:F2:0B:D3:33:68:53:FC:A1:AD:0B:0D:2F:C3:5D:82:1A:13:7E:26:73:BF",
+        "DB:B9:1B:94:E3:FA:F9:0C:0E:B5:17:B6:5F:94:E9:71:F5:F1:5C:08:89:10:3F:1B:5A:AB:63:8E:7C:F7:E3:A8"
+      ]
+    }
+  }
+]
